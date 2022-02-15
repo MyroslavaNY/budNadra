@@ -4,6 +4,7 @@ body{
     font-size: 15px;
     line-height: 1.6;
     color: black;
+    background-color: #eafdfd;
 
 }
 *,
@@ -23,13 +24,15 @@ h2{
     width: 100%;
     max-width: 1200px;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
  /*header*/
 .header{
     width: 100%;
     position: absolute;
     max-width: 1200px;
-    height: 180px;
+    height: 150px;
     margin: 0 auto;
     top: 0;
     left: 0;
@@ -52,8 +55,10 @@ h1:hover {
     cursor: pointer;
 }
 .headerLogo img{
-    width: 100px;
-    height: 100px;
+    margin-top: -40px;
+    margin-left: -40px;
+    width: 150px;
+    height: 150px;
 }
 .headerInner{
     display: flex;
@@ -66,7 +71,7 @@ h1:hover {
 .navLink{
     display: inline-block;
     margin: 0 10px;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     color: #c9f51b;
     text-decoration: none;
@@ -172,7 +177,7 @@ td{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
-
+    background-color:#daf8f8 ;
 }
 .contacts{
     width: 100%;
