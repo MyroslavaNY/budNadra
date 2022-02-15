@@ -201,3 +201,10 @@ td{
     text-transform: uppercase;
     font-size: 18px;
 }
+.foot{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #153C3C ;
+    height: 30px;
+}
