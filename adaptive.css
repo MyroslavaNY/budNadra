@@ -7,9 +7,10 @@
     font-size: 20px;
     margin-top: 20px;
 }
-    .navLink{
-
+    .navLink1{
+        display: none;
     }
+
     .container img{
       max-width: 200px;
     }
@@ -25,9 +26,13 @@
 
 @media only screen and (max-width: 768px) {
     .headerLogo h1{
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 20px;
     }
+    .navLink1{
+        display: none;
+    }
+
     .container img{
         max-width: 200px;
     }
@@ -42,9 +47,12 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .headerLogo h1{
-        font-size: 20px;
+    .headerLogo h1 {
+        font-size: 18px;
         margin-top: 20px;
+    }
+    .navLink1{
+        display: none;
     }
     .container img{
         max-width: 200px;
@@ -61,7 +69,10 @@
 
 @media only screen and (max-width: 320px) {
     .headerLogo h1{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .navLink1{
+        display: none;
     }
     .container img{
         max-width: 200px;

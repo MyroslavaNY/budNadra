@@ -69,7 +69,10 @@ h1:hover {
 
 }
 /*nav*/
-.navLink{
+.navLink1,
+.navLink2,
+.navLink3,
+.navLink4{
     display: inline-block;
     margin: 0 10px;
     font-size: 16px;
