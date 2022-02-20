@@ -4,7 +4,7 @@
 
 @media only screen and (max-width: 992px) {
 .headerLogo h1{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 20px;
 }
     .navLink{
@@ -25,7 +25,7 @@
 
 @media only screen and (max-width: 768px) {
     .headerLogo h1{
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 20px;
     }
     .container img{
@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 480px) {
     .headerLogo h1{
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 20px;
     }
     .container img{
@@ -61,7 +61,7 @@
 
 @media only screen and (max-width: 320px) {
     .headerLogo h1{
-        font-size: 22px;
+        font-size: 20px;
     }
     .container img{
         max-width: 200px;
