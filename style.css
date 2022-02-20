@@ -131,6 +131,9 @@ h1:hover {
     max-width: 1200px;
     margin:  0 auto;
 }
+.doc{
+    text-align: center;
+}
 .documentWrite{
     display: block;
 }
