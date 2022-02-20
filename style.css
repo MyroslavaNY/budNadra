@@ -56,9 +56,10 @@ h1:hover {
 }
 .headerLogo img{
     margin-top: -40px;
-    margin-left: -40px;
+    margin-left: -30px;
     width: 150px;
     height: 150px;
+    border: 1px solid #153C3C ;
 }
 .headerInner{
     display: flex;
@@ -102,7 +103,9 @@ h1:hover {
 /*intro*/
 .intro{
     width: 100%;
-    margin-top: 200px;
+    max-width: 1200px;
+    padding-top: 150px;
+    margin: 0 auto;
     text-align: center;
 
 }
@@ -207,4 +210,57 @@ td{
     margin: 0 auto;
     background: #153C3C ;
     height: 30px;
+}
+/*back_to_top*/
+.back_to_top{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #153C3C;
+    border-radius: 50%;
+    background-color: #153C3C;
+    /*display: none;*/
+}
+.back_to_top:hover,
+.back_to_top:focus{
+    filter: brightness(1.5);
+    outline: none;
+}
+.back_to_top::before,
+.back_to_top::after{
+    content:'';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.back_to_top::before{
+    width: 3px;
+    height: 17px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #CAFA0A;
+}
+.back_to_top::after{
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%)rotate(45deg);
+    border-top: 3px solid #CAFA0A;
+    border-left: 3px solid #CAFA0A;
+}
+/*callUs*/
+.callUs{
+    position: fixed;
+    right: 5px;
+    bottom: 200px;
+    width: 50px;
+    height: 50px;
+    /*background-color: #daf8f8;*/
+    color:#153C3C ;
+}
+.callUs img{
+    width: 50px;
+    height: 50px;
 }
