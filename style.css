@@ -131,8 +131,9 @@ h1:hover {
     max-width: 1200px;
     margin:  0 auto;
 }
-.doc{
-    text-align: center;
+p{
+    margin-left: 25px;
+    text-indent: 20px;
 }
 .documentWrite{
     display: block;
