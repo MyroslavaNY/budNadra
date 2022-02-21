@@ -17,14 +17,12 @@
     .back_to_top{
         width: 100px;
         height: 100px;
-        right: 20px;
-        bottom: 100px;
+
     }
     .callUs img{
         width: 100px;
         height: 100px;
-        bottom: 300px;
-        right: 40px;
+
     }
 }
 
@@ -43,14 +41,12 @@
     .back_to_top{
         width: 100px;
         height: 100px;
-        right: 20px;
-        bottom: 100px;
+
     }
     .callUs img{
         width: 100px;
         height: 100px;
-        bottom: 300px;
-        right: 40px;
+
     }
 }
 
@@ -68,14 +64,12 @@
     .back_to_top{
         width: 100px;
         height: 100px;
-        right: 20px;
-        bottom: 100px;
+
     }
     .callUs img{
         width: 100px;
         height: 100px;
-        bottom: 300px;
-        right: 40px;
+
     }
 }
 
@@ -89,16 +83,13 @@
     .container img{
         max-width: 200px;
     }
-    .back_to_top{
+    .back_to_top {
         width: 100px;
         height: 100px;
-        right: 20px;
-        bottom: 100px;
     }
     .callUs img{
         width: 100px;
         height: 100px;
-        bottom: 300px;
-        right: 40px;
+
     }
 }
