@@ -15,12 +15,16 @@
       max-width: 200px;
     }
     .back_to_top{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        right: 20px;
+        bottom: 100px;
     }
     .callUs img{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        bottom: 300px;
+        right: 20px;
     }
 }
 
@@ -37,12 +41,16 @@
         max-width: 200px;
     }
     .back_to_top{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        right: 20px;
+        bottom: 100px;
     }
     .callUs img{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        bottom: 300px;
+        right: 20px;
     }
 }
 
@@ -58,12 +66,16 @@
         max-width: 200px;
     }
     .back_to_top{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        right: 20px;
+        bottom: 100px;
     }
     .callUs img{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        bottom: 300px;
+        right: 20px;
     }
 }
 
@@ -78,11 +90,15 @@
         max-width: 200px;
     }
     .back_to_top{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        right: 20px;
+        bottom: 100px;
     }
     .callUs img{
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
+        bottom: 300px;
+        right: 20px;
     }
 }
