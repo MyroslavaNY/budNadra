@@ -71,10 +71,14 @@ h1:hover {
 .header_contact{
     display: flex;
     flex-direction: column;
+    text-decoration: none;
     color: #c9f51b;
 
 }
 /*nav*/
+.buttonGroup{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-around;
