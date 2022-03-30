@@ -153,7 +153,7 @@ p{
     display: block;
 }
 .documentWriteAbout{
-    background-color: #daf8f8;
+    background-color: #eafdfd;
     font-size: 20px;
 text-align: left;
 
@@ -161,8 +161,8 @@ text-align: left;
 .aboutUs{
     font-size: 20px;
 }
-.documentWriteNum{
-    background-color:#daf8f8;
+.documentWrite{
+    background:#eafdfd;
     text-align: center;
     color: black;
     font-size: 24px;
@@ -175,10 +175,10 @@ table{
     text-align: left;
     border-collapse: separate;
     border-spacing: 10px;
-    background: #daf8f8;
+    background:#eafdfd ;
     color: black;
     border: 2px solid #CAFA0A;
-    border-radius: 5px;
+    border-radius: 1px;
     align-items: center;
 }
 th{
@@ -205,7 +205,7 @@ td{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
-    background-color:#daf8f8 ;
+    background-color:#eafdfd ;
 }
 .contacts{
     width: 100%;
@@ -245,10 +245,10 @@ td{
 /*back_to_top*/
 .back_to_top{
     position: fixed;
-    right: 20px;
+    right: 40px;
     bottom: 100px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 1px solid #153C3C;
     border-radius: 50%;
     background-color: #153C3C;
@@ -269,14 +269,14 @@ td{
 }
 .back_to_top::before{
     width: 3px;
-    height: 20px;
+    height: 30px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     background-color: #CAFA0A;
 }
 .back_to_top::after{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     transform: translate(-50%, -50%)rotate(45deg);
     border-top: 3px solid #CAFA0A;
     border-left: 3px solid #CAFA0A;
@@ -288,7 +288,6 @@ td{
     bottom: 300px;
     width: 50px;
     height: 50px;
-    /*background-color: #daf8f8;*/
     color:#153C3C ;
 }
 .callUs img{
