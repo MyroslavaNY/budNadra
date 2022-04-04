@@ -155,11 +155,12 @@ p{
 .documentWriteAbout{
     background-color: #eafdfd;
     font-size: 20px;
-text-align: left;
+    text-align: left;
 
 }
 .aboutUs{
     font-size: 20px;
+    text-align: left;
 }
 .documentWrite{
     background:#eafdfd;

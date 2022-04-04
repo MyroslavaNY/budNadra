@@ -52,8 +52,9 @@
       max-width: 200px;
     }
     .back_to_top{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
+        right: 20px;
 
     }
     .back_to_top::before{
@@ -65,8 +66,8 @@
         height: 30px;
     }
     .callUs img{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
 
     }
 }
@@ -121,8 +122,9 @@
         max-width: 200px;
     }
     .back_to_top{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
+        right: 20px;
 
     }
     .back_to_top::before{
@@ -134,8 +136,8 @@
         height: 30px;
     }
     .callUs img{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
 
     }
 }
@@ -189,9 +191,9 @@
         max-width: 200px;
     }
     .back_to_top{
-        width: 100px;
-        height: 100px;
-
+        width: 70px;
+        height: 70px;
+        right: 20px;
     }
     .back_to_top::before{
         height: 40px;
@@ -202,8 +204,8 @@
         height: 30px;
     }
     .callUs img{
-        width: 100px;
-        height: 100px;
+         width: 70px;
+        height: 70px;
 
     }
 }
@@ -256,8 +258,9 @@
         max-width: 200px;
     }
     .back_to_top {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
+        right: 20px;
     }
     .back_to_top::before{
         height: 40px;
@@ -268,8 +271,8 @@
         height: 30px;
     }
     .callUs img{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
 
     }
 }
