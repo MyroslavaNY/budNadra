@@ -23,11 +23,13 @@
         display: block;
         position: relative;
         background-color: white;
-        width: 100px;
+        width: 90px;
         height: 40px;
         margin-top: -10px;
     }
-    .mobiButton span{
+    .mobiButton span,
+    .mobiButton span::before,
+    .mobiButton span::after{
         position: absolute;
         top: 50%;
         margin-top: -1px;
@@ -38,7 +40,13 @@
     }
     .mobiButton span::before,
     .mobiButton span::after{
-
+        content: '';
+    }
+    .mobiButton span::before{
+        transform: translateY(-6px);
+    }
+    .mobiButton span::after{
+        transform: translateY(6px);
     }
     .mobiLink{
         display: none;
