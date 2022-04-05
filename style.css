@@ -140,7 +140,10 @@ nav{
    max-width: 350px;
 }
 /*documents*/
-.documents, .documentList{
+.documents, .documentList,
+.documentList2,
+.photoAboutUs,
+.videoAboutUs{
     width: 100%;
     max-width: 1200px;
     margin:  0 auto;
@@ -183,7 +186,7 @@ table{
     align-items: center;
 }
 th{
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px;
     text-align: center;
 }
@@ -191,12 +194,20 @@ td{
     padding: 20px;
     background: white;
     text-align: center;
+    font-size: 20px;
 }
-.documentList{
+.documentList,
+.documentList2,
+.photoAboutUs,
+.videoAboutUs{
     display: flex;
     margin-top: 20px;
+
 }
-.documentList img{
+.documentList img,
+.documentList2 img,
+.photoAboutUs img,
+.videoAboutUs video{
     max-width: 100%;
 }
 
