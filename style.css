@@ -165,6 +165,45 @@ p{
     font-size: 20px;
     text-align: left;
 }
+.sliderContainer{
+    width: 1200px;
+    height: 350px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.sliderTrack{
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    margin: 10px;
+
+}
+.sliderTrack img{
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+
+.sliderButton{
+    text-align: center;
+}
+.btnNext,
+.btnPrev{
+    background: #153C3C;
+    color:#CAFA0A ;
+}
+.btnNext:hover,
+.btnPrev:hover{
+    background:#CAFA0A ;
+    color: #153C3C;
+}
+.video1, .video2{
+    margin: 30px;
+}
 .documentWrite{
     background:#eafdfd;
     text-align: center;
@@ -198,7 +237,6 @@ td{
 }
 .documentList,
 .documentList2,
-.photoAboutUs,
 .videoAboutUs{
     display: flex;
     margin-top: 20px;
@@ -209,6 +247,14 @@ td{
 .photoAboutUs img,
 .videoAboutUs video{
     max-width: 100%;
+    transition: transform 0.5s;
+}
+.documentList img:hover,
+.documentList2 img:hover{
+   transform: scale(1.3);
+}
+.photoAboutUs img:hover{
+    transform: scale(1.5);
 }
 
 /*footer*/
@@ -228,10 +274,15 @@ td{
 }
 .card{
     width: 40%;
+    margin-right: -100px;
+}
+. card img:hover{
+    transform: scale(1.5);
 }
 .contactUs{
     width: 40%;
     margin-top: 50px;
+    margin-left:-100px;
     text-align: center;
 
 }
@@ -239,7 +290,7 @@ td{
     margin-top: 50px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
 }
 .timeWork{
     font-size: 16px;
