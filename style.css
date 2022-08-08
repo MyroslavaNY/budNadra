@@ -144,6 +144,7 @@ nav{
 .documents, .documentList,
 .documentList2,
 .photoAboutUs,
+.photoAboutUs img,
 .videoAboutUs{
     width: 100%;
     max-width: 1200px;

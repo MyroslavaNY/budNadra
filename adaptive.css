@@ -9,6 +9,9 @@
     font-size: 48px;
     margin-left: 40px;
 }
+    .card{
+        margin-right: 0px;
+    }
     .navLink{
         display: none;
 
@@ -165,6 +168,9 @@
         height: 40px;
 
     }
+    .card{
+        margin-right: 0px;
+    }
     .back_to_top::after{
         width: 30px;
         height: 30px;
@@ -237,6 +243,9 @@
         height: 40px;
 
     }
+    .card{
+        margin-right: 0px;
+    }
     .back_to_top::after{
         width: 30px;
         height: 30px;
@@ -304,6 +313,9 @@
         width: 70px;
         height: 70px;
         right: 20px;
+    }
+    .card{
+        margin-right: 0px;
     }
     .back_to_top::before{
         height: 40px;
